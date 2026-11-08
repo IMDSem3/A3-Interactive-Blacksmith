@@ -61,15 +61,15 @@ function updateForge() {
   // Update class, image, and alt text
   if (status === "Too cold") {
     forge.classList.add("is-cold");
-    forgeImage.src = "assets/forge-cold.svg";
+    forgeImage.src = "./assets/forge-cold.svg";
     forgeImage.alt = "A stone forge with dark coals and no flames";
   } else if (status === "Ready to forge") {
     forge.classList.add("is-ready");
-    forgeImage.src = "assets/forge-ready.svg";
+    forgeImage.src = "./assets/forge-ready.svg";
     forgeImage.alt = "A stone forge with a small orange fire";
   } else {
     forge.classList.add("is-roaring");
-    forgeImage.src = "assets/forge-roaring.svg";
+    forgeImage.src = "./assets/forge-roaring.svg";
     forgeImage.alt = "A stone forge with tall bright flames and sparks";
   }
 
